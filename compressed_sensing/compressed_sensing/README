@@ -1,0 +1,10 @@
+1. Install matrix lib
+
+http://mirror.cedia.org.ec/gnu/gsl/
+
+2. Link libraries to Xcode
+
+a. Search Paths/Header Search Paths: /usr/local/include
+b. Linking/Other Linker Flags: -I/usr/local/include -L/usr/local/lib -lgsl -lgslcblas
+
+
