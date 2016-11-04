@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07898A5B1DB27F6F00BA04B1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 07898A5A1DB27F6F00BA04B1 /* main.c */; };
+		07898A631DB2852200BA04B1 /* mix_fun.c in Sources */ = {isa = PBXBuildFile; fileRef = 07898A621DB2852200BA04B1 /* mix_fun.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07898A551DB27F6F00BA04B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07898A571DB27F6F00BA04B1 /* compressed_sensing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = compressed_sensing; sourceTree = BUILT_PRODUCTS_DIR; };
+		07898A5A1DB27F6F00BA04B1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		07898A611DB2805100BA04B1 /* mix_fun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mix_fun.h; sourceTree = "<group>"; };
+		07898A621DB2852200BA04B1 /* mix_fun.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mix_fun.c; sourceTree = "<group>"; };
+		07898A641DB287DC00BA04B1 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07898A541DB27F6F00BA04B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07898A4E1DB27F6F00BA04B1 = {
+			isa = PBXGroup;
+			children = (
+				07898A591DB27F6F00BA04B1 /* compressed_sensing */,
+				07898A581DB27F6F00BA04B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07898A581DB27F6F00BA04B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07898A571DB27F6F00BA04B1 /* compressed_sensing */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07898A591DB27F6F00BA04B1 /* compressed_sensing */ = {
+			isa = PBXGroup;
+			children = (
+				07898A5A1DB27F6F00BA04B1 /* main.c */,
+				07898A641DB287DC00BA04B1 /* README */,
+				07898A621DB2852200BA04B1 /* mix_fun.c */,
+				07898A611DB2805100BA04B1 /* mix_fun.h */,
+			);
+			path = compressed_sensing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07898A561DB27F6F00BA04B1 /* compressed_sensing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07898A5E1DB27F6F00BA04B1 /* Build configuration list for PBXNativeTarget "compressed_sensing" */;
+			buildPhases = (
+				07898A531DB27F6F00BA04B1 /* Sources */,
+				07898A541DB27F6F00BA04B1 /* Frameworks */,
+				07898A551DB27F6F00BA04B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = compressed_sensing;
+			productName = compressed_sensing;
+			productReference = 07898A571DB27F6F00BA04B1 /* compressed_sensing */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07898A4F1DB27F6F00BA04B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Carlos Alberto Salazar Herrera";
+				TargetAttributes = {
+					07898A561DB27F6F00BA04B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 07898A521DB27F6F00BA04B1 /* Build configuration list for PBXProject "compressed_sensing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07898A4E1DB27F6F00BA04B1;
+			productRefGroup = 07898A581DB27F6F00BA04B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07898A561DB27F6F00BA04B1 /* compressed_sensing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07898A531DB27F6F00BA04B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07898A631DB2852200BA04B1 /* mix_fun.c in Sources */,
+				07898A5B1DB27F6F00BA04B1 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07898A5C1DB27F6F00BA04B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07898A5D1DB27F6F00BA04B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07898A5F1DB27F6F00BA04B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/Carlos/Documents/PHD/code/spblas_0_8,
+					/Users/Carlos/Documents/PHD/code/libvpx,
+				);
+				OTHER_CFLAGS = (
+					"-I",
+					/Users/Carlos/Documents/PHD/code/libvpx,
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-lblas",
+					"-lvpx",
+					"-lgtest",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07898A601DB27F6F00BA04B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/Carlos/Documents/PHD/code/spblas_0_8,
+					/Users/Carlos/Documents/PHD/code/libvpx,
+				);
+				OTHER_CFLAGS = (
+					"-I",
+					/Users/Carlos/Documents/PHD/code/libvpx,
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-lblas",
+					"-lvpx",
+					"-lgtest",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07898A521DB27F6F00BA04B1 /* Build configuration list for PBXProject "compressed_sensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07898A5C1DB27F6F00BA04B1 /* Debug */,
+				07898A5D1DB27F6F00BA04B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07898A5E1DB27F6F00BA04B1 /* Build configuration list for PBXNativeTarget "compressed_sensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07898A5F1DB27F6F00BA04B1 /* Debug */,
+				07898A601DB27F6F00BA04B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07898A4F1DB27F6F00BA04B1 /* Project object */;
+}
